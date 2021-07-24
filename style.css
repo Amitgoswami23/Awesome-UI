@@ -320,3 +320,148 @@ html, body{
     border: none;
     border-radius: 10px;
 }
+
+/*media query*/
+@media screen and (max-width: 600px){
+    .container{
+        width: 90%;
+        margin:auto;
+    }
+    .nav{
+        display: none;
+    }
+
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+
+    .left-banner{
+        width: 100%;
+    }
+
+    .right-bannar img{
+        width: 100%;
+        margin:auto;
+    }
+
+    .services{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-section{
+        width: 100%;
+    }
+
+    .right-section{
+        width: 100%;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .card-body{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .card-history{
+        width: 100%;
+    }
+
+    .first_card{
+        width: 100%;
+    }
+
+    .languages{
+        width: 100%;
+    }
+
+    .languages_heading{
+        width: 100%;
+    }
+
+    .languages_body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .languages_heading h1{
+        color: #647B64;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .first_content {
+        padding: 20px 10px 20px 20px;
+        width: 100%;
+    }
+
+    .gallary{
+        flex-direction: column;
+    }
+
+    .right-gallary {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .right-gallary h1{
+        font-size: 20px;
+    }
+
+    .right-gallary p{
+       
+        width: 100%;
+    }
+
+
+    .left-gallary img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .customer-feedback h3{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .customer-feedback{
+        margin-top: 30px;
+    }
+    .customer-feedback h1{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .customer-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .customer-card-component img{
+        width: 100%;
+    }
+    .footer-body{
+        width: 100%;
+    }
+
+    .footer-positions{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-positions {
+        width: 75%;
+        margin-bottom: 30px;
+    }
+
+    .second-positions{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .third-positions{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .fourth-positions{
+        width:100%;
+    }
+
+    .fourth-positions textarea{
+        width:70%;
+    }
+}
