@@ -127,7 +127,7 @@ html, body{
     margin-left: 100px;;
 }
 
-.card-body{
+.card-history{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
